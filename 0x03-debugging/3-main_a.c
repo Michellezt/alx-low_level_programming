@@ -18,8 +18,8 @@ int main(void)
 	year = 1997;
 
 	printf("Date: %02d/%02d/%04d\n", month, day, year);
-
-	day = (month);
+	printf("Day_of_the_year: %91d\n", day);
+	printf("Remaining_days: %d\n", 365 - day);
 
 	return (0);
 }
